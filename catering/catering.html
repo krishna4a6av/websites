@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gourmet au Catering</title>
+
+  <link rel="stylesheet" href="../catering/catering.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body { font-family: "Lato", sans-serif; }
+  </style>
+</head>
+
+<body>
+
+    <!------ navbar -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="brand">Gourmet au Catering</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Open Menu">☰</button>
+    </div>
+  </nav>
+
+
+  <!-- slides -->
+  <header class="hero" id="home">
+    <div class="slide">
+      <img src="../catering/media/cat1.jpg" alt="Catering event setup">
+      <div class="hero-caption">
+        <h1>Perfect Catering for Every Event</h1>
+        <p>Showcase at the place 1 for this event</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="../catering/media/cat2.jpg" alt="Guests enjoying food">
+      <div class="hero-caption">
+        <h1>Fresh Ingredients, Great Taste</h1>
+        <p>The atmosphere in New York is lorem ipsum.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="../catering/media/cat3.jpg" alt="Buffet arrangement">
+      <div class="hero-caption">
+        <h1>We Make Moments Special</h1>
+        <p>Thank you for the best images at this place</p>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container about-layout">
+      <img src="../catering/media/table.jpg" alt="Dining table setup" class="about-image">
+
+      <div class="about-content">
+        <h2 class="top-hd">About Catering</h2>
+        <h3>Tradition since 1989</h3>
+
+        <p>
+          The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- menu -->
+  <section class="menu section" id="menu">
+    <div class="container menu-layout">
+      <div class="menu-items">
+        <h2>Our Menu</h2>
+
+        <div class="menu-item">
+          <h3>Bread Basket</h3>
+          <p>Assortment of fresh baked fruit breads and muffins — 5.50</p>
+        </div>
+
+        <div class="menu-item">
+          <h5>Belgian Waffle</h5>
+          <p>Vanilla flavored batter with malted flour — 7.50</p>
+        </div>
+
+        <div class="menu-item">
+          <h3>Scrambled Eggs</h3>
+          <p>Scrambled eggs, roasted red pepper and garlic — 7.50</p>
+        </div>
+
+        <div class="menu-item">
+          <h3>Blueberry Pancakes</h3>
+          <p>With syrup, butter and lots of berries — 8.50</p>
+        </div>
+      </div>
+
+      <img src="../catering/media/mn-image.jpg" alt="Menu preview" class="menu-image">
+    </div>
+  </section>
+
+
+  <!-- contactss -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="center">Contact</h2>
+
+      <p class="center">
+        Catering Service, 42nd Living St, 43043 New York, NY
+      </p>
+
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="4" placeholder="Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+  <div class="map">
+    <img src="../catering/media/bottom.jpg" alt="Location map">
+  </div>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-snapchat"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+  </footer>
+
+
+  <script>
+    let index = 0;
+    const slides = document.getElementsByClassName("slide");
+
+    function showSlides() {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      index++;
+      if (index > slides.length) index = 1;
+      slides[index - 1].style.display = "block";
+      setTimeout(showSlides, 2000);
+    }
+
+    showSlides();
+  </script>
+
+</body>
+</html>
+
