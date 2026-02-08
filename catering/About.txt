@@ -1,0 +1,3 @@
+This site was created after i saw a challange on the w3school site: https://www.w3schools.com/w3css/w3css_web_tmp_catering.asp
+
+I saw it and got curious about it and started on this site. I have not used any of there code but tried to stay true to their challange as much as possible.
