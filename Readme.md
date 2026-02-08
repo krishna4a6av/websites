@@ -18,7 +18,8 @@ A modern catering / restaurant landing page.
 - Reusable container & section system
 
 📁 Folder: `/catering`
-live demo: 
+
+* Live demo: https://krishna4a6av.github.io/websites/catering/
 
 ---
 
