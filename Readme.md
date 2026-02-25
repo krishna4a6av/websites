@@ -1,25 +1,24 @@
 # 🌐 Website  Collection
 
+## Current Templates
 
----
+### Site 1
+Gourmet au Catering - A modern catering / restaurant landing page.
 
-## 📦 Current Templates
-
-### 🍽️ Gourmet au Catering
-A modern catering / restaurant landing page.
-
-**Features**
-- Responsive layout
-- Hero image slider
-- About & menu sections
-- Contact form UI
-- Themed using CSS variables
-- Flexbox based structure
-- Reusable container & section system
+- A simple site with Responsive layout, hero image slider, reusable container & section system. Gruvbox themed.
 
 📁 Folder: `/catering`
 
 * Live demo: https://krishna4a6av.github.io/websites/catering/
+
+---
+
+### Site 1
+Theme Showcase! - A showcase of different themes.
+
+📁 Folder: `/theme-showcase`
+
+* Live demo: https://krishna4a6av.github.io/websites/theme-showcase/
 
 ---
 
@@ -32,7 +31,6 @@ A modern catering / restaurant landing page.
 - Clean project organization
 - Hosting & deployment workflow
 
----
 
 ## 🎯 Goal of This Repository
 
